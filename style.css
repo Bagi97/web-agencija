@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(150, 253, 255);
+}
+
+.logo{
+
+    color: floralwhite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}    
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(55, 199, 199);
+}
+
+.nav-links {
+
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.nav-links li {
+
+    list-style: none;
+}
+
+.nav-links a {
+
+    color: lavender;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    padding: 10px;
+    display: block;
+    border-radius: 5%;
+
+}
+
+.nav-links a:hover {
+    background: rgb(40, 99, 238);
+    transition: 0,4s;
+}
