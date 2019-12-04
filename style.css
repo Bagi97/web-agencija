@@ -58,3 +58,34 @@ nav {
     background: rgb(40, 99, 238);
     transition: 0,4s;
 }
+
+#contact-table {
+
+    margin-left: 0px;
+    margin-top: 150px;
+}
+
+.wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+
+.box {
+
+    width: 350px;
+    height: 500px;
+    border-radius: 5%;
+    background-color: rgb(55, 199, 199);
+    border: dimgray;
+
+}  
+
+tr td {
+
+    font-family: 'Courgette', cursive;
+    color: cornsilk;
+}
