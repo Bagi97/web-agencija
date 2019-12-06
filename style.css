@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 30px;
-    font-family: 'Courgette', cursive;
+    font-family: 'Mitr', sans-serif;
 }    
 
 nav {
@@ -31,7 +31,7 @@ nav {
 
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 35%;
 
 }
 
@@ -47,7 +47,7 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Courgette', cursive;
+    font-family: 'Mitr', sans-serif;
     padding: 10px;
     display: block;
     border-radius: 5%;
@@ -61,31 +61,150 @@ nav {
 
 #contact-table {
 
-    margin-left: 0px;
-    margin-top: 150px;
+    margin-left: 20px;
+    margin-top: -320px;
 }
 
 .wrapper {
 
     display: flex;
     justify-content: space-between;
-    margin-left: 600px;
-    margin-top: 100px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-top: 90px;
+
 }
 
 .box {
 
-    width: 350px;
+    width: 900px;
     height: 500px;
-    border-radius: 5%;
+    border-radius: 3%;
     background-color: rgb(55, 199, 199);
     border: dimgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-}  
+} 
+
+h3 {
+
+    font-family: 'Mitr', sans-serif;
+    font-size: 50px;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h5 {
+
+    font-family: 'Mitr', sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 600px;
+    margin-top: 200px;
+}
 
 tr td {
 
-    font-family: 'Courgette', cursive;
+    font-family: 'Mitr', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
     color: cornsilk;
 }
+
+.button {
+  
+  border: none;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  margin-left: 312px;
+  margin-top: 100px;
+-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.button {
+  background-color: rgb(40, 99, 238); 
+  color: white; 
+  border: 1px solid rgb(40, 99, 238);
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.fa-facebook {
+    padding: 20px;
+    margin-right: 245px;
+    margin-top: 0px;
+    float: right;
+    font-size: 35px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: rgb(55, 199, 199);
+    color: white;
+  }
+
+  .fa-twitter {
+    padding: 20px;
+    margin-right: -100px;
+    margin-top: 0px;
+    float: right;
+    font-size: 35px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-twitter {
+    background: rgb(55, 199, 199);
+    color: white;
+  }
+
+  .fa-instagram {
+    padding: 20px;
+    margin-right: -150px;
+    margin-top: 0px;
+    float: right;
+    font-size: 35px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-instagram {
+    background: rgb(55, 199, 199);
+    color: white;
+  }
+
+  .fa-linkedin {
+    padding: 20px;
+    margin-right: -200px;
+    margin-top: 0px;
+    float: right;
+    font-size: 35px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-linkedin {
+    background: rgb(55, 199, 199);
+    color: white;
+  }
