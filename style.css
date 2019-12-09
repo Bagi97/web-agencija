@@ -102,7 +102,7 @@ h5 {
     color: blanchedalmond;
     text-shadow: 2px 2px 4px #000000;
     margin-left: 600px;
-    margin-top: 200px;
+    margin-top: 290px;
 }
 
 tr td {
@@ -122,15 +122,15 @@ tr td {
   display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
-  margin-left: 312px;
-  margin-top: 100px;
+  margin-left: 314px;
+  margin-top: 10px;
 -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 5%;
 }
 
-.button {
+.button2 {
   background-color: rgb(40, 99, 238); 
   color: white; 
   border: 1px solid rgb(40, 99, 238);
@@ -139,6 +139,55 @@ tr td {
 .button2:hover {
   background-color: #008CBA;
   color: white;
+}
+
+#location {
+
+  width: 50px;
+  float: right;
+  margin-right: -125px;
+  margin-top: -280px;
+}
+
+#adress {
+
+  float: right;
+  font-family: 'Mitr', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  margin-top: -230px;
+  margin-right: -160px;
+
+}
+
+#phone {
+
+  color: bisque;
+  width: 40px;
+  float: right;
+  margin-top: -150px;
+  margin-right: -150px;
+}
+
+#service {
+
+  color: bisque;
+  width: 35px;
+  float: right;
+  margin-top: -150px;
+  margin-right: -100px;
+}
+
+#phone-contact {
+
+  color: white;
+  font-family: 'Mitr', sans-serif;
+  float: right;
+  font-size: 11px;
+  margin-right: -155px;
+  margin-top: -100px;
+
 }
 
 .fa-facebook {
