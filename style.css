@@ -6,9 +6,9 @@
 
 body {
 
-    /*background-color: rgb(150, 253, 255);*/
-   background-image: url(pozadinaslika.jpg);
-   background-size: cover;
+    background-color: white;
+    background-image: url('email-pattern.png');
+    background-repeat: repeat;
 }
 
 .logo{
@@ -16,19 +16,17 @@ body {
     color: floralwhite;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-top: 5px;
     font-size: 30px;
     font-family: 'Mitr', sans-serif;
 }    
-img{
-  padding: 8px;
-}
 
 nav {
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 6vh;
     background-color: rgb(55, 199, 199);
 }
 
@@ -36,7 +34,7 @@ nav {
 
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 40%;
 
 }
 
@@ -50,10 +48,11 @@ nav {
     color: lavender;
     text-decoration: none;
     letter-spacing: 3px;
+    margin-top: 15px;
     font-weight: bold;
     font-size: 20px;
     font-family: 'Mitr', sans-serif;
-    padding: 10px;
+    padding: 5px;
     display: block;
     border-radius: 5%;
 
@@ -64,10 +63,45 @@ nav {
     transition: 0,4s;
 }
 
+#carouselExampleIndicators {
+
+  width: 1000px;
+  margin-left: 270px;
+
+}
+
+#note10 {
+
+  width: 300px;
+  margin-left: 600px;
+  margin-top: 150px;
+}
+
+#samsung_logo {
+
+  width: 200px;
+  margin-right: 200px;
+  margin-top: -70px;
+}
+
+#iphone_black {
+
+  width: 450px;
+  margin-left: 500px;
+  margin-top: 0px;
+}
+
+#apple_logo {
+
+  width: 150px;
+  margin-left: -50px;
+  margin-top: -250px;
+}
+
 #contact-table {
 
     margin-left: 20px;
-    margin-top: -320px;
+    margin-top: -360px;
 }
 
 .wrapper {
@@ -75,7 +109,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-left: 350px;
-    margin-top: 90px;
+    margin-top: 100px;
 
 }
 
@@ -83,19 +117,26 @@ nav {
 
     width: 900px;
     height: 500px;
-    border-radius: 3%;
+    border-radius: 1%;
     background-color: rgb(55, 199, 199);
     border: dimgray;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 } 
+
+h2 {
+
+  font-family: 'Mitr', sans-serif;
+  font-size: 25px;
+  color: black;
+  margin-top: 200px;
+  margin-left: 650px;
+}
 
 h3 {
 
     font-family: 'Mitr', sans-serif;
     font-size: 50px;
     color: blanchedalmond;
-    text-shadow: 2px 2px 4px #000000;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -103,18 +144,17 @@ h3 {
 h5 {
 
     font-family: 'Mitr', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: blanchedalmond;
-    text-shadow: 2px 2px 4px #000000;
-    margin-left: 600px;
-    margin-top: 290px;
+    margin-left: 555px;
+    margin-top: 315px;
 }
 
 tr td {
 
     font-family: 'Mitr', sans-serif;
-    text-shadow: 2px 2px 4px #000000;
     color: cornsilk;
+
 }
 
 .button {
@@ -127,9 +167,9 @@ tr td {
   display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
-  margin-left: 314px;
-  margin-top: 10px;
--webkit-transition-duration: 0.4s; /* Safari */
+  margin-left: 155px;
+  margin-top: 20px;
+-webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 5%;
@@ -150,8 +190,8 @@ tr td {
 
   width: 50px;
   float: right;
-  margin-right: -125px;
-  margin-top: -280px;
+  margin-right: -50px;
+  margin-top: -270px;
 }
 
 #adress {
@@ -159,10 +199,10 @@ tr td {
   float: right;
   font-family: 'Mitr', sans-serif;
   color: white;
-  text-align: center;
+  text-align: left;
   font-size: 11px;
-  margin-top: -230px;
-  margin-right: -160px;
+  margin-top: -220px;
+  margin-right: -130px;
 
 }
 
@@ -172,7 +212,7 @@ tr td {
   width: 40px;
   float: right;
   margin-top: -150px;
-  margin-right: -150px;
+  margin-right: -95px;
 }
 
 #service {
@@ -181,7 +221,7 @@ tr td {
   width: 35px;
   float: right;
   margin-top: -150px;
-  margin-right: -100px;
+  margin-right: -50px;
 }
 
 #phone-contact {
@@ -190,17 +230,17 @@ tr td {
   font-family: 'Mitr', sans-serif;
   float: right;
   font-size: 11px;
-  margin-right: -155px;
+  margin-right: -115px;
   margin-top: -100px;
 
 }
 
 .fa-facebook {
     padding: 20px;
-    margin-right: 245px;
+    margin-right: 300px;
     margin-top: 0px;
     float: right;
-    font-size: 35px;
+    font-size: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -217,10 +257,10 @@ tr td {
 
   .fa-twitter {
     padding: 20px;
-    margin-right: -100px;
+    margin-right: -98px;
     margin-top: 0px;
     float: right;
-    font-size: 35px;
+    font-size: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -233,10 +273,10 @@ tr td {
 
   .fa-instagram {
     padding: 20px;
-    margin-right: -150px;
+    margin-right: -140px;
     margin-top: 0px;
     float: right;
-    font-size: 35px;
+    font-size: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -249,10 +289,10 @@ tr td {
 
   .fa-linkedin {
     padding: 20px;
-    margin-right: -200px;
+    margin-right: -185px;
     margin-top: 0px;
     float: right;
-    font-size: 35px;
+    font-size: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -261,41 +301,4 @@ tr td {
   .fa-linkedin {
     background: rgb(55, 199, 199);
     color: white;
-  }
-  /*.pozadina {
-    background-image: cover;*/
-
-  }
-  #logovanje {
-    background-color: blue;
-    color: white;
-  }
-
-  .wrapper{
-    display: grid;
-    border: 2px solid black;
-    margin: auto 50vh;
-    grd gap: 10px;
-    grid-template: "reklame glavno glavno"
-                    "footer footer footer";
-
-
-                    
-  }
-
-  .div1{
-    grid-area: reklame;
-    border: 2px solid black;
-  }
-
-  .div2{
-    grid-area: glavno;
-    border: 2px solid black;
-  }
-
-  .div3{
-    grid-area: footer;
-    border: 2px solidblack;
-    
-
   }
