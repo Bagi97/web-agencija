@@ -6,7 +6,9 @@
 
 body {
 
-    background-color: rgb(150, 253, 255);
+    /*background-color: rgb(150, 253, 255);*/
+   background-image: url(pozadinaslika.jpg);
+   background-size: cover;
 }
 
 .logo{
@@ -17,6 +19,9 @@ body {
     font-size: 30px;
     font-family: 'Mitr', sans-serif;
 }    
+img{
+  padding: 8px;
+}
 
 nav {
 
@@ -256,4 +261,41 @@ tr td {
   .fa-linkedin {
     background: rgb(55, 199, 199);
     color: white;
+  }
+  /*.pozadina {
+    background-image: cover;*/
+
+  }
+  #logovanje {
+    background-color: blue;
+    color: white;
+  }
+
+  .wrapper{
+    display: grid;
+    border: 2px solid black;
+    margin: auto 50vh;
+    grd gap: 10px;
+    grid-template: "reklame glavno glavno"
+                    "footer footer footer";
+
+
+                    
+  }
+
+  .div1{
+    grid-area: reklame;
+    border: 2px solid black;
+  }
+
+  .div2{
+    grid-area: glavno;
+    border: 2px solid black;
+  }
+
+  .div3{
+    grid-area: footer;
+    border: 2px solidblack;
+    
+
   }
